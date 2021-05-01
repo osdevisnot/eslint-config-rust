@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-rust",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "osdevisnot <osdevisnot@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "latest"
+  },
+  "dependencies": {
+    "eslint": "latest"
+  }
+}
