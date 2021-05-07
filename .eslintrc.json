@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+    "node": true,
+    "shared-node-browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "reportUnusedDisableDirectives": true,
+  "extends": [
+    "./01_possible-errors.json",
+    "./02_best-practices.json",
+    "./03_variables.json",
+    "./04_stylistic-issues.json",
+    "./05_es6.json",
+    "./06_imports.json",
+    "./07_eslint_comments.json",
+    "./08_promise.json",
+    "./09_unicorn.json",
+    "./10_react.json",
+    "./99_prettier.json"
+  ],
+  "rules": {}
+}

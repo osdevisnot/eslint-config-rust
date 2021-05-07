@@ -1,0 +1,28 @@
+{
+  "plugins": ["sort-keys-fix"],
+  "rules": {
+    "consistent-this": "error",
+    "func-name-matching": "error",
+    "func-names": "error",
+    "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
+    "id-denylist": ["master", "slave", "white", "black", "whitelist", "blacklist"],
+    "lines-between-class-members": "error",
+    "new-cap": "error",
+    "no-array-constructor": "error",
+    "no-lonely-if": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multi-assign": "error",
+    "no-multiple-empty-lines": "error",
+    "no-nested-ternary": "error",
+    "no-new-object": "error",
+    "no-underscore-dangle": "error",
+    "no-unneeded-ternary": "error",
+    "one-var": ["error", "never"],
+    "one-var-declaration-per-line": "error",
+    "operator-assignment": ["error", "never"],
+    "prefer-exponentiation-operator": "error",
+    "prefer-object-spread": "error",
+    "sort-keys-fix/sort-keys-fix": "error",
+    "spaced-comment": "error"
+  }
+}

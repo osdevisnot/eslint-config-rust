@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "arrow-body-style": "error",
+    "constructor-super": "error",
+    "no-class-assign": "error",
+    "no-confusing-arrow": "error",
+    "no-const-assign": "error",
+    "no-dupe-class-members": "error",
+    "no-duplicate-imports": "error",
+    "no-new-symbol": "error",
+    "no-this-before-super": "error",
+    "no-useless-constructor": "error",
+    "no-useless-rename": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
+    "require-yield": "error",
+    "symbol-description": "error"
+  }
+}
