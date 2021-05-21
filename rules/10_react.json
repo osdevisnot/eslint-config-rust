@@ -1,6 +1,7 @@
 {
-  "plugins": ["react", "react-hooks"],
+  "plugins": ["react", "jsx-a11y", "react-hooks"],
   "settings": { "react": { "version": "detect" } },
+  "extends": ["plugin:jsx-a11y/recommended"],
   "rules": {
     "react/boolean-prop-naming": ["error", { "validateNested": true }],
     "react/button-has-type": "error",
@@ -32,10 +33,10 @@
     "react/no-unsafe": "error",
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
-    "react/prefer-read-only-props": "error",
     "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
-    "react/require-default-props": ["error", { "forbidDefaultForRequired": true, "ignoreFunctionalComponents": true }],
+    "react/require-default-props": ["error", { "forbidDefaultForRequired": true }],
+    "react/require-render-return": "error",
     "react/self-closing-comp": "error",
     "react/state-in-constructor": ["error", "never"],
     "react/static-property-placement": "error",

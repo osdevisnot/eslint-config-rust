@@ -1,0 +1,23 @@
+{
+  "plugins": ["radar", "security"],
+  "extends": ["plugin:security/recommended"],
+  "rules": {
+    "radar/no-all-duplicated-branches": "error",
+    "radar/no-collapsible-if": "error",
+    "radar/no-collection-size-mischeck": "error",
+    "radar/no-duplicate-string": "error",
+    "radar/no-duplicated-branches": "error",
+    "radar/no-identical-functions": "error",
+    "radar/no-inverted-boolean-check": "error",
+    "radar/no-redundant-boolean": "error",
+    "radar/no-redundant-jump": "error",
+    "radar/no-same-line-conditional": "error",
+    "radar/no-small-switch": "error",
+    "radar/no-unused-collection": "error",
+    "radar/no-useless-catch": "error",
+    "radar/prefer-immediate-return": "error",
+    "radar/prefer-object-literal": "error",
+    "radar/prefer-single-boolean-return": "error",
+    "radar/prefer-while": "error"
+  }
+}
