@@ -11,7 +11,8 @@
       {
         "cases": {
           "pascalCase": true,
-          "kebabCase": true
+          "kebabCase": true,
+          "camelCase": true
         }
       }
     ]
