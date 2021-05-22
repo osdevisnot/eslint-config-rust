@@ -25,7 +25,7 @@
     "import/no-duplicates": "error",
     "import/no-namespace": "error",
     "import/extensions": "error",
-    "import/order": "error",
+    "import/order": "off",
     "import/no-unassigned-import": "error",
     "import/no-named-default": "error",
     "import/no-default-export": "error",
@@ -35,7 +35,7 @@
   },
   "overrides": [
     {
-      "files": "pages/**/*.{j|t}s",
+      "files": "pages/**/*.{j|t}sx?",
       "rules": {
         "import/no-default-export": "off",
         "import/no-named-export": "error"

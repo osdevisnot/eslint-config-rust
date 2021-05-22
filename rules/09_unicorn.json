@@ -5,6 +5,15 @@
     "unicorn/prevent-abbreviations": "off",
     "unicorn/no-keyword-prefix": "error",
     "unicorn/no-unsafe-regex": "error",
-    "unicorn/prefer-string-replace-all": "error"
+    "unicorn/prefer-string-replace-all": "error",
+    "unicorn/filename-case": [
+      "error",
+      {
+        "cases": {
+          "pascalCase": true,
+          "kebabCase": true
+        }
+      }
+    ]
   }
 }
