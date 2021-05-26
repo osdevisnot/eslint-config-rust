@@ -20,7 +20,6 @@
     "operator-assignment": ["error", "never"],
     "prefer-exponentiation-operator": "error",
     "prefer-object-spread": "error",
-    "sort-keys-fix/sort-keys-fix": "error",
-    "spaced-comment": "error"
+    "sort-keys-fix/sort-keys-fix": "error"
   }
 }
